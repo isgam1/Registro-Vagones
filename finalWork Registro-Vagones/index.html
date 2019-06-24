@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel = "stylesheet" href = "css/bootstrap.css">
+
+    <title>Pantalla de Registro</title>
+</head>
+<body>
+  
+    <form action="insert1.php" method = "get">
+	    <div class = "container">
+
+		    <legend class= "text-primary">Registro de Vagones</legend>
+		
+            <input type="submit" class="btn btn-info" value="Registrar">
+            <input onclick="location.href = 'listado1.php'" class="btn btn-warning" type= "button" value="Listado">
+
+            <br>
+            <br>
+            
+            <label for="numero">Numero:</label>
+            <input type="text" class="form-control" placeholder="Entre el numero" name="numero" required>
+            <br>
+
+            <label for="color">Color:</label>
+            <input type="text" class="form-control" placeholder="color" name="color" required>
+            <br>
+
+            <label for="tamano">Tamaño:</label>
+            <input type="text" class="form-control" placeholder="tamano" name="tamano" required>
+            <br>
+
+            <label for="candado">Candado:</label>
+            <br>
+            <label class="radio-inline">
+                <input type="radio" name="candado" value= "cerrado">Cerrado
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="candado" value= "abierto">Abierto
+            </label>
+            <br>
+            <br>
+            <label for="fechallegada">Fecha de Llegada:</label>
+            <input type="Date" class="form-control" name= "fechallegada" required>
+            <br>
+
+            <label for="fechasalida">Fecha de Salida:</label>
+            <input type="Date" class="form-control" name= "fechasalida" required>
+            <br>
+
+            <label for="direccion">Direccion a la que se dirige:</label>
+            <input type="text" class="form-control" placeholder="direccion" name= "direccion" required>
+            <br>
+
+            <label for="pueblo">Pueblo al que se Dirige</label>
+            <br>
+            <select class="form-control" name= "pueblo">
+                <option value="default">Seleccione su Pueblo</option>
+                <option value="Barranquitas">Barranquitas</option>
+                <option value="Coamo">Coamo</option>
+                <option value="Aibonito">Aibonito</option>
+                <option value="Comerio">Comerio</option>
+                <option value="Naranjito">Naranjito</option>
+                <option value="Bayamon">Bayamon</option>
+                <option value="San Juan">San Juan</option>
+                <option value="Toa Alta">Toa Alta</option>
+                <option value="Humacao">Humacao</option>
+                <option value="Ponce">Ponce</option>
+                <option value="Otros">Otros</option>
+            </select>
+            <br>
+
+            <label for="pais">Pais Procedente:</label>
+            <br>
+            <select class="form-control" name= "pais">
+                <option value="default">Seleccione su Pais</option>
+                <option value="Puerto Rico">Puerto Rico</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Canada">Canada</option>
+                <option value="Otros">Otros</option>
+            </select>
+            <br>
+
+		</div>
+    </form>
+    
+    <script src = "js/jquery.js"></script>
+    <script src = "js/bootstrap.js"></script>
+
+</body>
+</html>
