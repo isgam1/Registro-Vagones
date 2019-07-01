@@ -1,8 +1,10 @@
 # Registro-Vagones
 Registro de Vagon in HTML,PHP,jQuery,Bootstrap and MySQL
 
-This program consists of a page that the client can use to register wagons on a dock.
-When the wagons arrive the customer verifies them with his Raspberry pi and completes information of these.
-This program allows the customer to keep an efficient register of wagon inventory on a dock. When the user enters the data these will be recorded in a database that will be automatically assigned to the program.
-All the information of each wagon will be saved in a table in the database. Each car is distinguished by its own number and its respective information.
-In addition to all this, the client will be able to extract information from each wagon to verify it and make changes if necessary. These changes will be presented in the database once corrected.
+Desarrollé un programa en HTML5, PHP, Bootstrap y jQuery y MySQL
+Este programa se compone de una página que el cliente puede utilizar para registrar vagones en un muelle.
+Al llegar los vagones el cliente los verifica con su Raspberry pi y completa información de estos.
+Este programa le permite al cliente llevar un registro eficiente del inventario de vagones en un muelle. Cuando el usuario entre los datos estos se grabarán en una base de datos que se le asignará automáticamente al programa.
+Se guardará toda la información de cada vagón en una tabla en la base de datos. Cada vagón se distingue con un número propio y su respectiva información.
+Adicional a todo esto el cliente podrá extraer información de cada vagón para verificarla y hacer cambios de ser necesario. Estos cambios se presentarán en la base de datos una vez corregidos.
+
